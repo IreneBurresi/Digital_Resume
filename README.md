@@ -3,9 +3,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="ADD_DEPLOY_LINK_HERE">
-    <img src="ADD_LOGO_PATH_HERE" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">Digital Resume</h3>
 
