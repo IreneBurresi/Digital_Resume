@@ -104,20 +104,21 @@ selected = option_menu(
 
 # ------------------------------------------------ ABOUT ME ------------------------------------------------
 if selected == "About me":
-    st.subheader("👋🏻 Hi, I'm Irene!")
+    st.subheader("Hi, I'm Irene")
     st.markdown("#### I'm an italian computer science student and aspiring data scientist")
     st.write("Actually I'm pursuing a bachelor degree in Computer Science at the University of Pisa (just 2 exams left)")
-    st.write("I'm looking for a curricula stage (300 hours), possibly in the data science field.")
+    st.write("I'm looking for a curricula internship (minimum 300 hours), possibly in the data science field.")
 #
 # ------------------------------------------------- SKILLS -------------------------------------------------
 elif selected == "Skills":
     st.write("#")
     st.subheader("Techincal Skills")
+    st.write("---")
     st.write(
         """
-        - 👩‍💻 Programming: Python (Numpy, Scikit-learn, Pandas), SQL, Javascript, Java, C
-        - 📊 Data Visulization: PowerBi, MS Excel, Plotly
-        - 📚 Modelling: linear regression, SVM, decision trees, concept learning, KNN, K-means
+        - 👩‍💻 Programming languages: Python, Javascript, Typescript, Java, C, OCaml
+        - 📊 Python libraries for Data Science: basics knowledge of NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn 
+        - 📚 ML models: linear regression, SVM, decision trees, concept learning, KNN, K-means
         - 🗄️ Databases: MongoDB (basics), MySQL
         """
     )
@@ -130,11 +131,24 @@ elif selected == "Projects":
     st.write("---")
     for project, link in PROJECTS.items():
         st.write(f"[{project}]({link})")
+    st.write("New projects coming soon")
 #
 # ------------------------------------------------ EDUCATION ------------------------------------------------
 if selected == "Education":
     st.write("#")
     st.subheader("Education")
     st.write("---")
-    
+    st.write("""
+        ##### High School Diploma in Science
+        Liceo Alessandro Volta - 2018
+        
+        During high schools I have been a writer for the school journal. I also participated at Model United Nations in New York in 2017 and I have been selcted for  at Young G7  
+        
+        ##### Bachelor degree in computer science
+        University of Pisa | 2018 - on-going 
+        
+        #### Certifications
+        FCE - Cambridge Certificate B2
+        ZTM - Data Science Bootcamp
+    """)
     
